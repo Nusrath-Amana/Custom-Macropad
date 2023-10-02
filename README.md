@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Custom Macropad is a versatile input device featuring 17 programmable keys and 1 knob.These keys can be assigned to execute various commands, keyboard shortcuts, and macros, allowing users to automate repetitive tasks on their computers. It can be connected via Bluetooth® 4.0 using the ESP32 in BLE mode, making it compatible with various devices such as desktops, laptops, tablets, and smartphones. The device includes two USB ports for charging and power output, along with a power management unit ensuring optimal battery life. This report presents a comprehensive overview of the Custom Macropad, covering its hardware and software design, implementation, functionality, user interface, performance analysis, and conclusion.
+The Custom Macropad is a versatile input device featuring 17 programmable keys and 1 knob.These keys can be assigned to execute various commands, keyboard shortcuts, and macros, allowing users to automate repetitive tasks on their computers. It can be connected via Bluetooth® 4.0 using the ESP32 in BLE mode, making it compatible with various devices such as desktops, laptops, tablets, and smartphones. The device includes two USB ports for charging and power output, along with a power management unit ensuring optimal battery life.
 
 ### Features and Functionality
 
@@ -42,7 +42,14 @@ LEDs are integrated into each key and the knob to provide visual feedback during
 #### Battery and Power Management:
 A rechargeable battery and power management circuitry ensure efficient power utilization and extended battery life. Two 3.7V Li-ion 3200mAh batteries are used with the T6845-C power bank module.
 
+### Firmware Development
 
+The firmware development involves programming the ESP32 microcontroller to handle various functionalities of the custom macro pad. Key steps in firmware development include:
+- Bluetooth Communication
+- Macro Recording and Playback
+- Handling Programmable Keys and Knob
+- LED Control
+- 
 ## Macro Pad Functionality
 
 The custom macro pad offers several functionalities to enhance productivity and automation:
