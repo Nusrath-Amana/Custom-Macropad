@@ -9,9 +9,10 @@ The Custom Macropad is a versatile input device featuring 17 programmable keys a
 The custom macro pad is equipped with the following features:
 - 17 Programmable Keys
 - 1 Programmable Knob
-- Macros and Keyboard Shortcuts
-- Mechanical Switches
+- Macro Recording and Playback
+- Four Levels of Switch Assignment
 - Wireless Connectivity
+- LED Feedback
 - Dual USB Ports
 - Power Management
 - Long Battery Life
@@ -49,18 +50,7 @@ The firmware development involves programming the ESP32 microcontroller to handl
 - Macro Recording and Playback
 - Handling Programmable Keys and Knob
 - LED Control
-- 
-## Macro Pad Functionality
 
-The custom macro pad offers several functionalities to enhance productivity and automation:
-
-1. Programmable Keys
-2. Programmable Knob
-3. Macro Recording and Playback
-4. Four Levels of Switch Assignment
-5. Wireless Connectivity
-6. LED Feedback
-7. Power Management
 
 ## Applications
 
